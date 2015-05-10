@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<plugin>     
+	<class>com.skyseas.openfireplugins.chatlogs.ChatLogsPlugin</class>    
+	<!-- Plugin meta-data -->     
+	<name>Chat Logs Plugin</name>   
+	<description>User Chat Message Logs Plugins.</description>   
+	<author>qslu</author>       
+	<version>1.0</version>    
+	<date>28/03/2013</date>    
+	<minServerVersion>3.7.1</minServerVersion>   
+	    
+	<adminconsole>                
+		<tab id="tab-server">          
+		<sidebar id="sidebar-server-manager">                
+			<item id="chatLogs-service" name="ChatLogs Service" url="chatlogs_test.jsp" 
+				description="Click to manage the service that allows users chat logs." />      
+		</sidebar>         
+		</tab>    
+	</adminconsole> 
+		
+</plugin>

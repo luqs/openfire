@@ -1,0 +1,3 @@
+<project>
+  <property name="copy_refs" value="false" />
+</project>

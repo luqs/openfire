@@ -1,0 +1,6 @@
+<project>
+  <property name="copy_refs" value="true" />
+  <patternset id="plugin_refs">
+  	<include name="gson-2.2.4.jar"/>
+  </patternset>
+</project>

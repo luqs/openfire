@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>com.skyseas.openfireplugins.webservice.WebServicePlugin</class>
+    <name>webservice</name>
+    <description>提供外部系统通过HTTP向用户推送消息或广播消息的插件。</description>
+    <author>陆青松</author>
+    <version>1.0.0</version>
+    <date>24/04/2015</date>
+    <minServerVersion>3.9.0</minServerVersion>
+
+
+    <adminconsole>
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-manager">
+                <item id="webservice" name="webservice"
+                      url="webservice_list.jsp"
+                      description="webservice list" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+    
+</plugin>

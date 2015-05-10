@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>com.skyseas.openfireplugins.addition.AdditionPlugin</class>
+    <name>addition</name>
+    <description>用于提供给客户端用户进行附件传输的插件。</description>
+    <author>张智</author>
+    <version>1.0.0</version>
+    <date>11/21/2014</date>
+    <minServerVersion>3.9.0</minServerVersion>
+
+
+    <adminconsole>
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-manager">
+                <item id="upload_resource" name="ResourceUpload"
+                      url="upload_test.jsp"
+                      description="upload testing" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+    
+</plugin>

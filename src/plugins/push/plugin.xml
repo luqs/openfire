@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>com.skyseas.openfireplugins.push.HttpPushPlugin</class>
+    <name>push</name>
+    <description>提供外部系统通过HTTP向用户推送消息或广播的插件。</description>
+    <author>张智</author>
+    <version>1.0.0</version>
+    <date>11/11/2014</date>
+    <minServerVersion>3.9.0</minServerVersion>
+
+
+    <adminconsole>
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-manager">
+                <item id="push" name="Message Push"
+                      url="push_test.jsp"
+                      description="push xmpp message or boardcast" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+    
+</plugin>
